@@ -64,11 +64,11 @@ def participant_data_operations():
  coloum = str(input("Enter new coloum name:"))
  new = str(input("data:"))
  student_data[coloum] = new
- print("Details of Participents:",student_data)
+ print("Details of Participents:",participents)
  col_name= input("Enter column name to delete: ")
  if col_name in student_data:
      del student_data[col_name]
-     print("Updated Details of Participant:", student_data)
+     print("Updated Details of Participant:", participents)
 
 #Main choice interface
 while True:
